@@ -3,9 +3,14 @@ package com.qa.demo;
 public class Runner {
 
 	public static void main(String[] args) {
-		System.out.println("Yo WTF");
+
 		helloWorld();
 		System.out.println(returnString());
+		System.out.println(returnInt());
+		System.out.println(returnBool());
+		System.out.println(returnChar());
+		System.out.println(returnFloat());
+		System.out.println(returnNull());
 	}
 	
 	public static void helloWorld() {
@@ -16,4 +21,23 @@ public class Runner {
 		return "BLAH";
 	}
 	
+	public static int returnInt() {
+		return 25;
+	}
+	
+	public static Boolean returnBool() {
+		return true;
+	}
+	
+	public static Character returnChar() {
+		return 'a';
+	}
+	
+	public static float returnFloat() {
+		return 5.5f;
+	}
+	
+	public static Object returnNull() {
+		return null;
+	}
 }
