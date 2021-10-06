@@ -11,6 +11,7 @@ public class Runner {
 		System.out.println(returnChar());
 		System.out.println(returnFloat());
 		System.out.println(returnNull());
+		System.out.println(luckySeven());
 	}
 	
 	public static void helloWorld() {
@@ -39,5 +40,10 @@ public class Runner {
 	
 	public static Object returnNull() {
 		return null;
+	}
+	
+	public static int luckySeven() {
+		String f = "7";
+		return Integer.parseInt(f);
 	}
 }
